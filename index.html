@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container container--flex">
+            <div class="hero__left">
+                <form action="" class="hero__left-form">
+                    <div class="hero__left-form-line">
+                        <label for="name">Name</label>
+                        <input id="name" type="text">
+                    </div>
+                    <div class="hero__left-form-line hero__left-form-line--gender">
+                        <div>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="hero__left-form-line">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email">
+                    </div>
+                    <div class="hero__left-form-line">
+                        <label for="password">Password</label>
+                        <input id="password" type="password">
+                    </div>
+                    <button class="hero__left-form-button">Submit</button>
+                </form>
+            </div>
+            <div class="hero__right"></div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

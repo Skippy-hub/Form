@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 75rem;
+}
+
+.container--flex{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+    height: 11.675rem;
+}
+
+.hero{
+    background: url("https://media.istockphoto.com/id/1616897621/video/blue-digital-data-lights-technology-background-animation.jpg?s=640x640&k=20&c=D8--h-vEExbtbyxXFTJOTLK-qDSQqq9rCX8BlFBI8Po=") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero__left{
+    max-width: 20rem;
+    width: 100%;
+    background: rgb(255, 255, 255 , 50%);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.hero__left-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+}
+
+.hero__left-form-line{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.hero__left-form-line--gender{
+    justify-content: space-evenly;
+}
+
+.hero__right{
+    width: 25rem;
+    background: rgb(255, 255, 255 , 50%);
+    border-radius: 2rem;
+    padding: 0.8rem;
+    padding-right: 1.5rem;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.hero__right-card{
+    border: 1px solid #000;
+    margin-bottom: 0.25rem;
+}
+
+.hero__right-card-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.hero__right-card-content-column{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.hero__right-card-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero__right-card-buttons-button{
+    max-width: 5rem;
+    width: 100%;
+}
