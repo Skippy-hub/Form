@@ -14,7 +14,6 @@
     display: flex;
     justify-content: space-evenly;
     gap: 5rem;
-    height: 11.675rem;
 }
 
 .hero{
@@ -59,7 +58,8 @@
     padding: 0.8rem;
     padding-right: 1.5rem;
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
+    height: 11.675rem;
 }
 
 .hero__right-card{
